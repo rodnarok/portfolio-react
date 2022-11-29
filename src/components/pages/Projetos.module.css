@@ -1,0 +1,39 @@
+.title {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  /* border: 10px solid blue; */
+  margin: 1rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(99, 12, 110, 1) 30%,
+    rgba(2, 154, 185, 1) 100%
+  );
+}
+.title h1 {
+  color: rgb(88, 121, 182);
+  text-shadow: 2px 2px 10px black;
+  margin: auto;
+}
+
+.projs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 2rem 0;
+  margin-top: 50px;
+}
+
+.ilustra {
+  width: 40%;
+  padding: 3.5rem;
+}

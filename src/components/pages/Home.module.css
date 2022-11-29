@@ -1,0 +1,42 @@
+.skills_section {
+  text-align: center;
+  padding: 3.5rem 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(99, 12, 110, 1) 30%,
+    rgba(2, 154, 185, 1) 100%
+  ); */
+  margin-bottom: -50px;
+}
+
+.back {
+  background-image: url("../img/v748-toon-107.jpg");
+}
+
+.my_skills_h1 {
+  font-size: 3rem;
+
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(99, 12, 110, 1) 30%,
+    rgba(2, 154, 185, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem;
+}
+
+.skill_cards {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  width: 60%;
+}
