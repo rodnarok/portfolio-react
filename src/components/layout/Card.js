@@ -1,9 +1,9 @@
 import styles from "./Card.module.css";
 
-function Card({ name, img }) {
+function Card({ name, img, type }) {
   console.log(styles.classe);
   return (
-    <div className={styles.skill_card}>
+    <div className={type ? styles.has_proj : styles.skill_card}>
       <h3>{name}</h3>
       <hr />
       <div className={styles.img_box}>

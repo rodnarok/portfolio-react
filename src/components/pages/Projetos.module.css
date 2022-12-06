@@ -18,17 +18,19 @@
   color: rgb(88, 121, 182);
   text-shadow: 2px 2px 10px black;
   margin: auto;
+  font-size: 6.5rem;
 }
 
 .projs {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 10rem;
 }
 
 .section {
   text-align: center;
-  font-size: 3.5rem;
+
   padding: 2rem 0;
   margin-top: 50px;
 }

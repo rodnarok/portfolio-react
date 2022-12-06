@@ -1,7 +1,7 @@
 .skill_card {
   padding: 1em;
   border: 1px solid #7a7a7a;
-  border-radius: 5px;
+  border-radius: 15px;
   width: 200px;
   margin: 0.5%;
   text-align: center;
@@ -19,4 +19,27 @@
 
 .img_box {
   width: 100%;
+}
+
+.has_proj {
+  animation: pulse 1.5s 0.75s ease-out infinite;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 8px 6px transparent, 0 0 0 0 transparent,
+      0 0 0 0 transparent;
+  }
+
+  10% {
+    box-shadow: 0 0 8px 6px rgb(140, 0, 255), 0 0 12px 10px transparent,
+      0 0 12px 5px rgb(140, 0, 255);
+  }
+
+  100% {
+    box-shadow: 0 0 8px 6px transparent, 0 0 0 40px transparent,
+      0 0 0 20px transparent;
+  }
 }
